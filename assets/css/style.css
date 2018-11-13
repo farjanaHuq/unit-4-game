@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    width: 900px;
+    height: 800px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+}
+
+.crystal{
+    border: 1px solid black;
+    background-color: gainsboro;
+    height: 120px;
+    width: 120px;
+}

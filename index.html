@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collectors!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+    <div id="crystalsCollectors">Crystals Collectors!</div>
+      <div id="game instructions">
+         <p> Instructions
+            <ul style="list-style-type:disc">
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below. By clicking on them you will add specific amount
+                    of points to the total score.</li>
+                <li>You win the game by matching your total score to the random number. You loose if your
+                    total score goes beyond the random number.</li>
+                <li>Each time when the game starts, the game will change the value of each crystal.</li>
+
+            </ul>
+
+         </p>
+     </div>
+  </div>
+  <div class = "row">
+      <div class = "col-md-4 " id = "random-number">Random number</div>
+      <div class = "col-md-2 col-md-offset-6 " id = "result">Display Result
+            <p>Wins: <span id = "wins"> 0 </span></p>
+            <p>Loses: <span id = "loses"> 0 </span></p>
+      </div>
+
+  </div>
+  <div class = "crystals"> </div>
+  <div id = "totalScore"> Your Total Score is </div>
+  <div id = "display-score"> 0 </div>
+
+</div>
+
+<script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
