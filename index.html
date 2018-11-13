@@ -12,10 +12,11 @@
 
 <body>
 
-<div id="container">
-    <div id="crystalsCollectors">Crystals Collectors!</div>
-      <div id="game instructions">
-         <p> Instructions
+<div class="container">
+    <div id="crystalsCollectors">Crystals Collector!</div>
+    
+    <div id="game-instructions">
+        <p ><strong > Instructions </strong>
             <ul style="list-style-type:disc">
                 <li>You will be given a random number at the start of the game.</li>
                 <li>There are four crystals below. By clicking on them you will add specific amount
@@ -23,23 +24,24 @@
                 <li>You win the game by matching your total score to the random number. You loose if your
                     total score goes beyond the random number.</li>
                 <li>Each time when the game starts, the game will change the value of each crystal.</li>
-
+    
             </ul>
-
-         </p>
-     </div>
-  </div>
-  <div class = "row">
-      <div class = "col-md-4 " id = "random-number">Random number</div>
-      <div class = "col-md-2 col-md-offset-6 " id = "result">Display Result
-            <p>Wins: <span id = "wins"> 0 </span></p>
-            <p>Loses: <span id = "loses"> 0 </span></p>
-      </div>
-
-  </div>
-  <div class = "crystals"> </div>
-  <div id = "totalScore"> Your Total Score is </div>
-  <div id = "display-score"> 0 </div>
+    
+        </p>
+    </div>
+    
+    <div class="row", style="margin-left:-2px">
+        <div class="col-md-2 " id="random-number">Random number</div>
+        <div class="col-md-4 col-md-offset-2 " id="result"><strong > Display Result </strong>
+            <p>Wins: <span id="wins"> 0 </span></p>
+            <p>Loses: <span id="loses"> 0 </span></p>
+        </div>
+    
+    </div>
+    <div class="crystals"> </div>
+    <div id="totalScore">
+        <p><strong > Your Total Score is : </strong> <span id="display-score"> 0 </span></p> </div>
+  
 
 </div>
 
