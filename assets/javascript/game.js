@@ -78,7 +78,7 @@ var resetOrStartOverTheGame = function () {
     }
     winsCounterElem.text(wins);
     losesCounterElem.text(loses);
-})
+});
 
 // check if the total score is equal to the random number or not
 // if it's not equal or less/bigger then increament loose and start over
